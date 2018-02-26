@@ -1,0 +1,122 @@
+<html>
+<head>
+	<title>Latihan GIT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascriptblog.js"></script>
+</head>
+<body>
+	
+	<!-- bagian header template -->
+	<header>
+		<h1 class="judul">Geeksfram Blog</h1>
+		<p class="deskripsi">Tugas HTML, CSS, Javascript dan Git</p>
+	</header>
+	<!-- akhir bagian header template -->
+	
+	<div class="wrap">
+		<!-- bagian menu		 -->
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="kalkulator.html">Aplikasi Kalkulator</a>
+				</li>
+				<li>
+					<a href="kuis.html">Aplikasi Kuis</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
+         
+		<!-- bagian sidebar website -->
+		<aside class="sidebar">
+			<div class="widget">
+				<a href="http://citizen6.liputan6.com/read/3223172/ilmuwan-jepang-ciptakan-teknologi-yang-bisa-membaca-pikiranmu"><h2>Ilmuwan Jepang Ciptakan teknologi yang bisa mampu baca pikiran mu</h2></a>	
+				<image src="gambar1.jpeg" width="240px" height="200px"></image>
+				
+			</div>
+			<div class="widget">
+				<h2>Aplikasi Kalkulator</h2>
+				<p>Hitung dan temukan angka yang anda inginkan menggunakan aplikasi kalkulator di website ini</p>
+            </div>
+            <div class="widget">
+                    <h2>Kuis tebak nama monster smt </h2>
+                    <p>Penggemar video game SMT?Ikutilah kuis sederhana di website ini </p>
+			</div>
+		</aside>
+		<!-- akhir bagian sidebar website -->
+ 
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<div class="conteudo">
+				<h1> Prorgram Kalkulator </h1>
+				<hr>
+                <p align="left">Masukan angka yang akan dihitung dan pilih operasi perhitungan yang akan dilaksanakan</p>
+             
+                <br>
+            </br>
+                <form>
+                        <table  id="tabelkalkulator">
+                            <tr>
+                                <td>Angka 1</td>
+                                <td>operasi </td>
+                                <td>Angka 2 </td>
+                            </tr>
+                           <tr>
+                               <td>
+                            <input type="text" id="angka1" size="3">
+                            
+                        </input>     
+                        </td>
+                            <td>
+                                <p id="operasi">&nbsp; &nbsp;</p>
+                            </td>
+                            <td>
+                            <input type="text" id="angka2" size="3"> 
+                             </input>
+                            </td>
+                            </tr>  
+                            <tr>
+
+                            </tr>
+                        <tr>
+                            <td>
+                            <input type="radio" value="+" id="plus" name="valueoperasi" onchange="gantiop()">+ 
+                            </td>
+                            <td>
+                                    <input type="radio" value="-" id="minus" name="valueoperasi" onchange="gantiop()">-
+                            </td>
+                            <td>
+                                    <input type="radio" value="*" id="multi" name="valueoperasi" onchange="gantiop()">*
+                            </td>
+                            <td>
+                                    <input type="radio" value="/" id="divide" name="valueoperasi" onchange="gantiop()">/
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" onclick="hitung()" value="Hitung"></input>
+                            </td>
+                            <td>
+                                    <input type="button" onclick="erase()" value="Reset"></input>
+                            </td>
+                        </tr>
+                        </table>
+                            <br>
+                    </br>
+                    <br></br>
+
+                  <H1 id="result"></H1>
+
+                </form>
+
+            </div>
+          
+		</div>
+		<!-- akhir bagian konten Blog -->
+	</div>
+ 
+</body>
+</html>

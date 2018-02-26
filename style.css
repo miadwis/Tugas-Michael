@@ -115,9 +115,9 @@ nav.menu ul a:hover {
 }
 
 .conteudo img {
-	min-width: 650px;
+	min-width: 300px;
 	margin:0 0 25px -25px;
-	max-width: 650px;
+	max-width: 300px;
 }
 
 .conteudo h1 {
@@ -150,3 +150,7 @@ nav.menu ul a:hover {
 	text-transform: uppercase;
 }
 	
+#tabelkalkulator
+{
+	width: 300px;
+}

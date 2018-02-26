@@ -1,0 +1,125 @@
+<html>
+<head>
+	<title>Latihan GIT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascriptblog.js"></script>
+</head>
+<body>
+	
+	<!-- bagian header template -->
+	<header>
+		<h1 class="judul">Geeksfram Blog</h1>
+		<p class="deskripsi">Tugas HTML, CSS, Javascript dan Git</p>
+	</header>
+	<!-- akhir bagian header template -->
+	
+	<div class="wrap">
+		<!-- bagian menu		 -->
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="kalkulator.html">Aplikasi Kalkulator</a>
+				</li>
+				<li>
+					<a href="kuis.html">Aplikasi Kuis</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
+         
+		<!-- bagian sidebar website -->
+		<aside class="sidebar">
+			<div class="widget">
+				<a href="http://citizen6.liputan6.com/read/3223172/ilmuwan-jepang-ciptakan-teknologi-yang-bisa-membaca-pikiranmu"><h2>Ilmuwan Jepang Ciptakan teknologi yang bisa mampu baca pikiran mu</h2></a>	
+				<image src="gambar1.jpeg" width="240px" height="200px"></image>
+				
+			</div>
+			<div class="widget">
+				<h2>Aplikasi Kalkulator</h2>
+				<p>Hitung dan temukan angka yang anda inginkan menggunakan aplikasi kalkulator di website ini</p>
+            </div>
+            <div class="widget">
+				<h2>Kuis tebak nama monster smt </h2>
+				<p>Penggemar video game SMT?Ikutilah kuis sederhana di website ini </p>
+			</div>
+		</aside>
+		<!-- akhir bagian sidebar website -->
+ 
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<div class="conteudo">
+				<h1>Program kuis </h1>
+				<hr>
+                <p align="left">Sesuaikan lah nama monster smt dibawah  ini dengan benar </p>
+             
+                <br>
+            </br>
+                <form>
+                    <p>1</p>
+                        <img src="monster1.png" width="10px" height="300px"></img>
+                        <br>
+                          </br>
+                            <input type="radio" value="Pixie" id="mon1ans1" name="monster1">Pixie
+                            <input type="radio" value="Jack Ripper" id="mon1ans2" name="monster1" >Jack the ripper
+                            <input type="radio" value="Slime" id="mon1ans3" name="monster1">Slime
+                            <input type="radio" value="Jack Frost" id="mon1ans4" name="monster1">Jack Frost
+                         <br>
+                        </br>
+                    <p>2</p>
+                        <img src="monster2.jpg" width="10px" height="300px"></img>
+                        <br>
+                          </br>
+                            <input type="radio" value="Vishnu" id="mon2ans1" name="monster2">Vishnu
+                            <input type="radio" value="Rangda" id="mon2ans2" name="monster2" >Rangda
+                            <input type="radio" value="Loa" id="mon2ans3" name="monster2">Loa
+                            <input type="radio" value="Harlot" id="mon2ans4" name="monster2">Harlot
+                         <br>
+                        </br>
+                        <p>3</p>
+                    <img src="monster3.jpg" width="10px" height="300px"></img>
+                        <br>
+                          </br>
+                            <input type="radio" value="David" id="mon3ans1" name="monster3">David
+                            <input type="radio" value="Matador" id="mon3ans2" name="monster3" >Matador
+                            <input type="radio" value="White rider" id="mon3ans3" name="monster3">White rider
+                            <input type="radio" value="Trumpeeter" id="mon3ans4" name="monster3">Trumpeeter
+                         <br>
+                        </br>
+                <p>4</p>
+                    <img src="monster4.jpg" width="10px" height="300px"></img>
+                        <br>
+                          </br>
+                            <input type="radio" value="Shiva" id="mon4ans1" name="monster4">Shiva
+                            <input type="radio" value="Mada" id="mon4ans2" name="monster4" >Mada
+                            <input type="radio" value="Kahlii" id="mon4ans3" name="monster4">Kahlii
+                            <input type="radio" value="Ganesha" id="mon4ans4" name="monster4">Ganesha
+                         <br>
+                        </br>
+            <p>5</p>
+                    <img src="monster5.png" width="10px" height="300px"></img>
+                        <br>
+                          </br>
+                            <input type="radio" value="Lucifuge" id="mon5ans1" name="monster5">Lucifuge
+                            <input type="radio" value="Decarabia" id="mon5ans2" name="monster5" >Decarabia
+                            <input type="radio" value="Ose" id="mon5ans3" name="monster5">Ose
+                            <input type="radio" value="Baal-zeboul" id="mon5ans4" name="monster5">Baal-zeboul
+                         <br>
+                        </br>
+                <input type="button" onclick="quiz()" value="Selesai"></input>
+                <br>
+                    </br>
+                  <H1 id="result"></H1>
+
+                </form>
+
+            </div>
+          
+		</div>
+		<!-- akhir bagian konten Blog -->
+	</div>
+ 
+</body>
+</html>
